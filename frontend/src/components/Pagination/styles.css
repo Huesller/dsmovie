@@ -27,6 +27,7 @@
     align-items: center;
     border: 1px solid var(--color-primary);
     cursor: pointer;
+    
 }
 
 .dsmovie-pagination-button svg {
@@ -45,7 +46,7 @@
 .dsmovie-pagination-container p {
     margin: 0;
     font-size: 12px;
-    color: var(--color-primary);
+    color: #fff;
 }
 
 .dsmovie-flip-horizontal {

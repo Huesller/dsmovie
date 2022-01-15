@@ -3,6 +3,7 @@ header {
     background-color: var(--color-primary);
     display: flex;
     align-items: center;
+    box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.534);
 }
 
 .dsmovie-nav-content {
@@ -13,14 +14,14 @@ header {
 }
 
 .dsmovie-nav-content h1 {
-    font-size: 24px;
+    font-size: 28px;
     margin: 0;
     font-weight: 700;
 }
 
 .dsmovie-contact-container {
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 
 .dsmovie-contact-link {
