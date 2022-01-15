@@ -29,14 +29,17 @@ function Listing() {
             });
     }, [pageNumber]);
 
+    const handePageChange = (newPageNumber : number) => {
+        setPageNumber(newPageNumber);
+    }
+
     return (
         <>
-            <Pagination />
+            <Pagination page={page} onChange={handePageChange} />
 
             <div className="container">
                 <div className="row">
                     {page.content.map(movie => (
-
                         <div key={movie.id} className="col-sm-6 col-lg-4 col-xl-3 mb-3">
                             <MovieCard movie={movie} />
                         </div>
